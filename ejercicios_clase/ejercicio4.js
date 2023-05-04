@@ -1,0 +1,2 @@
+let motoviajero = [motoviajeronombre = { nombre: prompt("ingresa tu nombre"), placa: prompt("ingresa tu moto"), modelo: prompt("ingresa tu placa") }, motoviajeronombre = { nombre: prompt("ingresa tu nombre"), placa: prompt("ingresa tu moto"), modelo: prompt("ingresa tu placa") }, motoviajeronombre = { nombre: prompt("ingresa tu nombre"), placa: prompt("ingresa tu moto"), modelo: prompt("ingresa tu placa") }];
+console.table(motoviajero);

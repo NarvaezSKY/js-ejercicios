@@ -81,16 +81,56 @@
 
 
 
-let objeto1 = {
-    hola: "si",
-    hola2: "no"
-}
-let objeto2 = {
-    hola3: "si",
-    hola4: "no"
-}
+// let objeto1 = {
+//     hola: "si",
+//     hola2: "no"
+// }
+// let objeto2 = {
+//     hola3: "si",
+//     hola4: "no"
+// }
 
 
-let objetofusion = {...objeto1, ...objeto2 };
-let { hola4 } = objetofusion;
-console.log(hola4);
+// let objetofusion = {...objeto1, ...objeto2 };
+// let { hola4 } = objetofusion;
+// console.log(hola4);
+
+
+
+
+// objeto con funcion dentro xd
+// let aprendiz = {
+//     nombre: "cristian",
+//     imprimir: function() {
+//         console.log(`mi nombre es ${this.nombre}`)
+
+//     }
+
+// };
+
+// let aprendiz1 = {
+//     nombre: "cristian",
+//     imprimir: function(nombre) {
+//         console.log(`mi nombre es ${nombre}`)
+
+//     }
+
+// };
+
+// aprendiz.imprimir();
+
+
+
+
+
+// let primerArray = [`hola`, false];
+// console.log(primerArray[0], primerArray[1]);
+// console.table(primerArray);
+
+
+
+let aprendices = [`Camilo`, `yesi`, `el papu`, `yo`];
+for (let i = 0; i < 4; i++) {
+    console.log(aprendices[i]);
+
+};
