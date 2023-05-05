@@ -129,8 +129,71 @@
 
 
 
-let aprendices = [`Camilo`, `yesi`, `el papu`, `yo`];
-for (let i = 0; i < 4; i++) {
-    console.log(aprendices[i]);
+// let aprendices = [`Camilo`, `yesi`, `el papu`, `yo`];
+// for (let i = 0; i < 4; i++) {
+//     console.log(aprendices[i]);
 
-};
+// };
+
+
+// let aprendiz = [];
+// aprendiz1 = {
+//         nombre: prompt("ingresa tu nombre"),
+//         ape: prompt("ingresa tu moto")
+//     },
+//     aprendiz2 = {
+//         nombre: prompt("ingresa tu nombre"),
+//         ape: prompt("ingresa tu moto")
+//     },
+//     aprendiz3 = {
+//         nombre: prompt("ingresa tu nombre"),
+//         ape: prompt("ingresa tu moto")
+//     };
+
+// motoviajero.unshift(motoviajeronombre3)
+// motoviajero.push(motoviajeronombre2)
+// motoviajero.push(motoviajeronombre1)
+
+
+
+// motoviajero.pop();
+// motoviajero.shift();
+// motoviajero.splice(0);
+
+
+
+
+
+
+
+
+
+
+
+
+// let dias = [`camilo`, `hola`, `duro`, `yesi`];
+// let numeros = [dia1, dia2, dia3, dia4] = dias;
+// console.log(dias[1]);
+// console.log(dia2);
+// console.log(numeros[1]);
+
+
+
+
+
+const libros = [
+    { nombre: 'la iliada', precio: '20000' },
+    { nombre: 'la odisea', precio: '15000' },
+    { nombre: 'las aventuras de koala', precio: '¿quien pagaria por esto?' }
+];
+
+
+// for (let i = 0; i < libros.length; i++) { 
+//     console.table(libros[i].nombre)
+// };
+
+
+
+libros.forEach(function(libreria) {
+    console.log(`libro ${libreria.nombre} precio ${libreria.precio}`)
+});
