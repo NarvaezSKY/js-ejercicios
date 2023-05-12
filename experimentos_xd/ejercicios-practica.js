@@ -7,7 +7,7 @@
 
 let valor = parseInt(prompt("Ingresa el valor"));
 
-for (let i=valor; i>0;i--){
-console.log(`${i},`);
+for (let i = valor; i > -1; i--) {
+    console.log(`${i},`);
 
 };

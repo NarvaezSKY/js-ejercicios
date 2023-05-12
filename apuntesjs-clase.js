@@ -181,11 +181,11 @@
 
 
 
-const libros = [
-    { nombre: 'la iliada', precio: '20000' },
-    { nombre: 'la odisea', precio: '15000' },
-    { nombre: 'las aventuras de koala', precio: '¿quien pagaria por esto?' }
-];
+// const libros = [
+//     { nombre: 'la iliada', precio: '20000' },
+//     { nombre: 'la odisea', precio: '15000' },
+//     { nombre: 'las aventuras de koala', precio: '¿quien pagaria por esto?' }
+// ];
 
 
 // for (let i = 0; i < libros.length; i++) { 
@@ -194,6 +194,97 @@ const libros = [
 
 
 
-libros.forEach(function(libreria) {
-    console.log(`libro ${libreria.nombre} precio ${libreria.precio}`)
-});
+// libros.forEach(function(libreria) {
+//     console.log(`libro ${libreria.nombre} precio ${libreria.precio}`)
+// });
+
+// mot1 = prompt("carlos")
+// mot2 = prompt("yesi")
+// mot3 = prompt("camilo")
+// mot4 = prompt("el papu")
+
+// function motero(mot1 = "tu", mot2 = "mama", mot3 = "es", mot4 = "hombre") {
+//     console.log(`motero1=${this.mot1} motero2=${this.mot2} motero3=${this.mot3} motero4=${this.mot4} `)
+// }
+// motero()
+
+
+
+// const bienvenido = () => {
+//     console.log(`Autenticado`)
+//     iniciosesion(prompt("hola"));
+// };
+
+// const iniciosesion = (usuario) => {
+//     console.log(`verificando identidad...`);
+//     console.log(`bienvenido ${usuario}`)
+// };
+
+// bienvenido();
+
+
+
+// function sumar(a, b) {
+//     return a + b;
+// }
+
+// const resu = sumar(a = parseInt(prompt("numero 1")), b = parseInt(prompt("numero 2")));
+// console.log(resu)
+
+
+
+
+
+
+
+
+
+
+// let total = parseInt(prompt("ingresa el total"))
+
+// function agregar(precio) {
+//     return total += precio
+// }
+
+// function iva() {
+//     return total * 0.19
+// }
+
+// total = agregar(500)
+// total = agregar(500)
+// total = agregar(500)
+
+// const totalPagar = iva(total);
+// console.log(total)
+// console.log(`el valor es ${totalPagar}`)
+
+
+
+
+const reproductor = {
+
+    play: function() {
+        console.log(`usted dio play`)
+    },
+    pausa: function() {
+        console.log(`cancion pausada`)
+
+    },
+    stop: function() {
+        console.log(`cancion detenida`)
+
+    },
+    adelante: function() {
+        console.log(`cancion adelantada`)
+
+    },
+    atras: function(siguiente) {
+        console.log(`usted paso a la siguiente cancion que se llama ${siguiente}`)
+
+    }
+}
+reproductor.play()
+reproductor.pausa()
+reproductor.stop()
+reproductor.adelante()
+reproductor.atras(prompt("cancion?"))
