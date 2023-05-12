@@ -1,10 +1,31 @@
+*{
+    margin-bottom: 10px;
+}
 
 body{
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(83, 83, 83);
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
-    justify-content: center;
-    display: flex;
+    text-align: center;
+   
+}
+
+.calculadorita{
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    border: 0px;
+    font-weight: bold;
+    box-shadow:0px 2px 8px 1px rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.header{
+    width: 100%;
+    background-color:#f7df1e;
+    height: 40px;
+    color: black;
+    border-radius: 5px;
 }
 
 
