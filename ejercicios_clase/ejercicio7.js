@@ -13,18 +13,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 // let nombre = prompt("nombre");
 
 const saludar = (nombre) => {
