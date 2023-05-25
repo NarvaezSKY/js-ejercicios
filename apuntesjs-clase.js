@@ -261,30 +261,34 @@
 
 
 
-const reproductor = {
+// const reproductor = {
 
-    play: function() {
-        console.log(`usted dio play`)
-    },
-    pausa: function() {
-        console.log(`cancion pausada`)
+//     play: function() {
+//         console.log(`usted dio play`)
+//     },
+//     pausa: function() {
+//         console.log(`cancion pausada`)
 
-    },
-    stop: function() {
-        console.log(`cancion detenida`)
+//     },
+//     stop: function() {
+//         console.log(`cancion detenida`)
 
-    },
-    adelante: function() {
-        console.log(`cancion adelantada`)
+//     },
+//     adelante: function() {
+//         console.log(`cancion adelantada`)
 
-    },
-    atras: function(siguiente) {
-        console.log(`usted paso a la siguiente cancion que se llama ${siguiente}`)
+//     },
+//     atras: function(siguiente) {
+//         console.log(`usted paso a la siguiente cancion que se llama ${siguiente}`)
 
-    }
-}
-reproductor.play()
-reproductor.pausa()
-reproductor.stop()
-reproductor.adelante()
-reproductor.atras(prompt("cancion?"))
+//     }
+// }
+// reproductor.play()
+// reproductor.pausa()
+// reproductor.stop()
+// reproductor.adelante()
+// reproductor.atras(prompt("cancion?"))
+
+
+document.write("ola".toUpperCase())
+// tolowercase es para minusculas
