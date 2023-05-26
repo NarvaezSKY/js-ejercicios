@@ -290,5 +290,44 @@
 // reproductor.atras(prompt("cancion?"))
 
 
-document.write("ola".toUpperCase())
+// document.write("ola".toUpperCase())
 // tolowercase es para minusculas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// switch
+
+
+
+let pago=prompt("ingresa tu metodo de pago")
+
+
+switch (pago){
+
+case "saldo":
+    console.log("no")
+    break;
+case "tarjeta":
+    confirmar()
+    break;
+
+default:
+    console.log("que")
+    break;
+
+}
+
+function confirmar (){
+    console.log(`pagaste con ${pago}`)
+}

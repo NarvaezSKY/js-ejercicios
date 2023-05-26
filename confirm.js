@@ -38,7 +38,7 @@ else{
     iniciosesion()
 }
 }
-
+   
 // registrarse
 if (inireg==2){
     alert("Registrarse")
