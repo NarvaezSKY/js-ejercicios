@@ -310,24 +310,88 @@
 
 
 
-let pago=prompt("ingresa tu metodo de pago")
+// let pago=prompt("ingresa tu metodo de pago")
 
 
-switch (pago){
+// switch (pago){
 
-case "saldo":
-    console.log("no")
-    break;
-case "tarjeta":
-    confirmar()
-    break;
+// case "saldo":
+//     console.log("no")
+//     break;
+// case "tarjeta":
+//     confirmar()
+//     break;
 
-default:
-    console.log("que")
-    break;
+// default:
+//     console.log("que")
+//     break;
 
-}
+// }
 
-function confirmar (){
-    console.log(`pagaste con ${pago}`)
-}
+// function confirmar (){
+//     console.log(`pagaste con ${pago}`)
+// }
+
+
+// const usuario = true;
+// const password= true;
+
+// if (usuario && password){
+//     console.log("si puede entrar")
+// }
+
+
+
+// const usuario = false;
+// const password= true;
+
+// if (usuario && password){
+//     console.log("si puede entrar")
+// }
+//  else if (!usuario){
+//     console.log("wtf no sos usuario")
+//  }
+
+
+// let i;
+// for (i=parseInt(prompt("ingresa el numero")); i>0; i--){
+//     console.log(i)
+// }
+
+
+
+
+
+
+
+
+
+// let array=[
+//     {nombre:"el pepe",
+//     apellido:"motero", 
+//     placa: "BLK-182"},
+
+//     {nombre:"yesi",
+//     apellido:"motero", 
+//     placa: "SUM-41"},
+
+//     {nombre:"yo",
+//     apellido:"el papu", 
+//     placa: "SEX-69"},
+// ]
+
+// let i;
+// for (i= 0; i=parseInt(prompt("ingrese el numero")); i++ ){
+//     console.table(array)
+// }
+
+
+
+// let i
+// for (i=parseInt(prompt("ingresa tu numero")); i>-1; i--){
+//     console.log(i)
+// }
+
+
+let i = parseFloat(3.4)
+console.log(typeof(i))
