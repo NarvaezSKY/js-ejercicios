@@ -11,13 +11,16 @@ body{
 }
 
 .calculadorita{
-    width: 100px;
+    width: 150px;
     height: 30px;
     border-radius: 3px;
     border: 0px;
     font-weight: bold;
-    box-shadow:0px 2px 8px 1px rgb(0, 0, 0);
+    box-shadow:0px 1px 5px 1px rgb(0, 0, 0);
     font-size: 15px;
+    grid-area: si;
+    margin-top: 10px;
+    
 }
 
 .header{
@@ -26,6 +29,17 @@ body{
     height: 40px;
     color: black;
     border-radius: 5px;
+    box-shadow: 2px 2px 10px 2px black;
+    margin-bottom: 50px;
+}
+
+.container{
+   background-color: #ffffff46;
+    height: auto;
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    
 }
 
 

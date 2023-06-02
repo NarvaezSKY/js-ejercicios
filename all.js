@@ -1,5 +1,5 @@
 function ejercicio1(){
-alert("factura js papáaaaaa");
+alert("Ejercicio 1: factura js papáaaaaa");
 
 let nombre = prompt("nombre cliente");
 
@@ -34,7 +34,7 @@ console.log(`el total a pagar, señor ${nombre} es ${resultado+resultado*0.19-re
 
 function ejercicio2(){
 
-alert("Estudiantes y notas");
+alert("Ejercicio 2 :Estudiantes y notas");
 
 let nombre = prompt("nombre aprendiz");
 let nota1 = parseFloat(prompt("nota 1"))
@@ -87,6 +87,7 @@ if (resultado3 > 3) {
 
 
 function ejercicio3(){
+    alert("Ejercicio 3: Factura Motoviajero")
 let motoviajero = {
     nombre: prompt("Nombre del Motoviajero..."),
     apellido: prompt("Apellido del Motoviajero..."),
@@ -142,12 +143,18 @@ console.log(presupuesto);
 
 
 function ejercicio4(){
-    let motoviajero = [motoviajeronombre = { nombre: prompt("ingresa tu nombre"), placa: prompt("ingresa tu moto"), modelo: prompt("ingresa tu placa") }, motoviajeronombre = { nombre: prompt("ingresa tu nombre"), placa: prompt("ingresa tu moto"), modelo: prompt("ingresa tu placa") }, motoviajeronombre = { nombre: prompt("ingresa tu nombre"), placa: prompt("ingresa tu moto"), modelo: prompt("ingresa tu placa") }];
-console.table(motoviajero);
+    let motoviajero = [
+
+        motoviajeronombre = { nombre: prompt("ingresa tu nombre"), placa: prompt("ingresa tu moto"), modelo: prompt("ingresa tu placa") }, 
+        motoviajeronombre = { nombre: prompt("ingresa tu nombre"), placa: prompt("ingresa tu moto"), modelo: prompt("ingresa tu placa") },
+        motoviajeronombre = { nombre: prompt("ingresa tu nombre"), placa: prompt("ingresa tu moto"), modelo: prompt("ingresa tu placa") }];
+        
+        console.table(motoviajero);
 }
 
 
 const ejercicio5=()=>{
+    alert("Ejercicio 5: Push y Unshift")
     let motoviajero = [];
     motoviajeronombre1 = {
             nombre: prompt("ingresa tu nombre"),
@@ -196,4 +203,34 @@ function Login() {
 
 Login(nombre,apellido,ciudad);
 
+}
+const ejercicio8=()=>{
+    let numero=(prompt("numero"))
+
+    if (numero%numero!==0){
+        console.log("no es valido")
+    }
+    
+    else{
+        let i;
+    
+        for(i=0;i<=numero;i++){
+    
+            console.log(i)
+    
+            if(i%5==0 && i%3==0){
+            console.log(`${i} ping pong`)
+            continue
+            }
+            else if (i%3==0){
+            console.log(`${i} ping`)
+            continue;
+            }
+    
+            else if (i%5==0){
+            console.log(`${i} pong`)
+            continue
+            }
+        }
+    }    
 }

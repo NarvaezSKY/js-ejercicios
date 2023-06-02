@@ -393,5 +393,101 @@
 // }
 
 
-let i = parseFloat(3.4)
-console.log(typeof(i))
+// let i = parseFloat(3.4)
+// console.log(typeof(i))
+
+// let i=0
+// while (i>70){
+//     console.log(i)
+//     i++
+//     if (i%2==0){
+//         console.log(`${i} es par`)
+//     }
+//     else{
+//         console.log(`${i} es impar`)
+//     }
+// }
+
+
+
+// const ejercicio8=()=>{
+//     let numero=(prompt("numero"))
+
+//     if (numero%numero!==0){
+//         console.log("no es valido")
+//     }
+    
+//     else{
+//         let i;
+    
+//         for(i=0;i<=numero;i++){
+    
+//             console.log(i)
+    
+//             if(i%5==0 && i%3==0){
+//             console.log(`${i} ping pong`)
+//             continue
+//             }
+//             else if (i%3==0){
+//             console.log(`${i} ping`)
+//             continue;
+//             }
+    
+//             else if (i%5==0){
+//             console.log(`${i} pong`)
+//             continue
+//             }
+//         }
+//     }    
+// }
+
+
+// let numero = prompt("ingresa el numero")
+// let i = 0
+// if (numero%2==0){
+// do{
+//     console.log(i)
+//     i++
+//     if(i%5==0 && i%3==0){
+//         console.log(`${i} ping pong`)
+//         continue
+// }
+//     else if (i%3==0){
+//         console.log(`${i} ping`)
+//         continue;
+//         }
+            
+//     else if (i%5==0){
+//         console.log(`${i} pong`)
+//         continue
+// }
+// }
+// while(i<numero)
+// }
+// else{
+//     console.log("el numero no es par")
+
+// }
+
+
+
+let array=[
+{nombre:"no"},
+{nombre:"si"},
+{nombre:"que"},
+]
+
+// array.forEach((array)=>{
+// console.log(array.nombre)
+// });
+
+
+// array.map((array)=>{
+// console.log(array)
+// }
+// )
+
+
+for (let nombre in array){
+    console.log(nombre)
+}

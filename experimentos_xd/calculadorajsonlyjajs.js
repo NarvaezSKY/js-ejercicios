@@ -1,4 +1,5 @@
-function calculadora() {
+let condicion = true
+while (condicion=true){
     alert("Calculodora del Papu");
     let op = parseInt(prompt("1. Sumamelo, 2. Restamelo, 3. Multiplicapapu, 4. Dividemelo, 5. Sorpresa!"));
     if (op == 1) {
@@ -27,6 +28,7 @@ function calculadora() {
         alert("5 por el culo te la inco jaskdjaksdj");
 
     } else {
-        alert("Opción no válida");
+        condicion=false
+        alert("bye");
     }
-};
+}
