@@ -416,14 +416,14 @@
 //     if (numero%numero!==0){
 //         console.log("no es valido")
 //     }
-    
+
 //     else{
 //         let i;
-    
+
 //         for(i=0;i<=numero;i++){
-    
+
 //             console.log(i)
-    
+
 //             if(i%5==0 && i%3==0){
 //             console.log(`${i} ping pong`)
 //             continue
@@ -432,7 +432,7 @@
 //             console.log(`${i} ping`)
 //             continue;
 //             }
-    
+
 //             else if (i%5==0){
 //             console.log(`${i} pong`)
 //             continue
@@ -456,7 +456,7 @@
 //         console.log(`${i} ping`)
 //         continue;
 //         }
-            
+
 //     else if (i%5==0){
 //         console.log(`${i} pong`)
 //         continue
@@ -471,11 +471,15 @@
 
 
 
-let array=[
-{nombre:"no"},
-{nombre:"si"},
-{nombre:"que"},
+let array = [
+    { nombre: "no" },
+    { nombre: "si" },
+    { nombre: "que" },
 ]
+
+for (let nombre in array) {
+    console.log(nombre)
+}
 
 // array.forEach((array)=>{
 // console.log(array.nombre)
@@ -486,8 +490,3 @@ let array=[
 // console.log(array)
 // }
 // )
-
-
-for (let nombre in array){
-    console.log(nombre)
-}
