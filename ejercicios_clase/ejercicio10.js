@@ -34,3 +34,5 @@ function pierdes() {
     user = parseInt(prompt(("Ingresa una cantidad para apostar")))
     eleccion = parseInt(prompt("ingresa una eleccion"))
 }
+
+// asd
